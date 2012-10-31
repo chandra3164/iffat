@@ -11,6 +11,7 @@ body {
     transition:         1s;
 }
 .night {  
+    color: white;
 	background-image: url("../images/night.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -20,6 +21,7 @@ body {
 	transition: opacity 1s ease-in-out;
 }
 .bdaycake {
+    color:white;
 	background-image: url("../images/bdaycake.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
