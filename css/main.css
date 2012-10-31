@@ -1,8 +1,9 @@
 body {
 	font: 36px/1.5 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
-	background-image: url('../images/bg.png');
-	background-repeat: repeat-y repeat-x;
-}
+	background-image: url('../images/bg2.png');
+    background-size: cover;
+/*	background-repeat: repeat-y repeat-x;
+*/}
 .trans { 
     -webkit-transition: 1s;
     -moz-transition:    1s;
