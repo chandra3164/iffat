@@ -1,0 +1,100 @@
+body {
+	font: 36px/1.5 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+	background-image: url('../images/bg2.png');
+    background-size: cover;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;}
+.trans { 
+    -webkit-transition: 1s;
+    -moz-transition:    1s;
+    -ms-transition:     1s;
+    -o-transition:      1s;
+    transition:         1s;
+}
+.night {  
+    color: white;
+	background-image: url("../images/night.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+.bdaycake {
+    color:white;
+	background-image: url("../images/bdaycake.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+#life { width: 500px }
+#life b {
+    display: inline-block;
+    -webkit-transition: 1s;
+    -moz-transition:    1s;
+    -ms-transition:     1s;
+    -o-transition:      1s;
+    transition:         1s;
+}
+#life.present #life-up.positioning {
+    -webkit-transform: translateY(-30px);
+    -moz-transform:    translateY(-30px);
+    -ms-transform:     translateY(-30px);
+    -o-transform:      translateY(-30px);
+    transform:         translateY(-30px);
+}
+#life.present #life-down.positioning {
+	-webkit-transform: translateY(30px);
+    -moz-transform:    translateY(30px);
+    -ms-transform:     translateY(30px);
+    -o-transform:      translateY(30px);
+    transform:         translateY(30px);
+
+    -webkit-transition-delay: 0.25s;
+    -moz-transition-delay:    0.25s;
+    -ms-transition-delay:     0.25s;
+    -o-transition-delay:      0.25s;
+    transition-delay:         0.25s;
+}
+#high { width: 800px }
+#high b {
+    display: inline-block;
+    -webkit-transition: 1s;
+    -moz-transition:    1s;
+    -ms-transition:     1s;
+    -o-transition:      1s;
+    transition:         1s;
+}
+#high.present #high-up.positioning {
+    -webkit-transform: translateY(-80px);
+    -moz-transform:    translateY(-80px);
+    -ms-transform:     translateY(-80px);
+    -o-transform:      translateY(-80px);
+    transform:         translateY(-80px);
+}
+#drunken { width: 800px }
+#drunken b {
+    display: inline-block;
+    -webkit-transition: 1s;
+    -moz-transition:    1s;
+    -ms-transition:     1s;
+    -o-transition:      1s;
+    transition:         1s;
+}
+
+#drunken.present .rotating {
+    -webkit-transform: rotate(15deg);
+    -moz-transform:    rotate(15deg);
+    -ms-transform:     rotate(15deg);
+    -o-transform:      rotate(15deg);
+    transform:         rotate(15deg);
+}
+.small {
+	font-size: 0.5em;
+}
