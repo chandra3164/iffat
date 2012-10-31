@@ -587,13 +587,15 @@
                 event.target.classList.remove("past");
                 event.target.classList.remove("future");
                 event.target.classList.add("present");
-                var imaget = event.target.id;
-                document.body.className = "trans impress-supported impress-enabled impress-on-"+imaget +" "+imaget;
+                // var imaget = event.target.id;
+                // document.body.className = "trans impress-supported impress-enabled impress-on-"+imaget +" "+imaget;
             }, false);
             
             root.addEventListener("impress:stepleave", function (event) {
                 event.target.classList.remove("present");
                 event.target.classList.add("past");
+                // var imaget = event.target.id;
+                // document.body.className = "trans impress-supported impress-enabled impress-on-"+imaget;
             }, false);
             
         }, false);
