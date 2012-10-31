@@ -589,11 +589,6 @@
                 event.target.classList.add("present");
                 var imaget = event.target.id;
                 document.body.className = "trans impress-supported impress-enabled impress-on-"+imaget +" "+imaget;
-                // alert(document.body.className);
-                // document.body.className = "impress-not-supported ";
-                // document.body.className = imaget;
-                //alert("url('images/"+imaget+".jpg')");
-                // document.body.style.backgroundImage="url('images/"+imaget+".jpg')";
             }, false);
             
             root.addEventListener("impress:stepleave", function (event) {

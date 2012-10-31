@@ -1,12 +1,109 @@
+<!doctype html>
 <html lang="en">
-	<head>
-		<title>Impress Demo</title>
-	</head>
-	<body>
-		<div id="impress">
-			
-		</div>
-		<script type="text/javascript">impress().init();</script>
-		<script src="js/impress.js"></script>
-	</body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+<div id="impress">
+
+    <div id="intro" class="step"        data-x="-2000" data-y="-1000" data-z="0" data-rotate="0">
+        <q><center><h1>Heya</h1></center></q>
+        <q><center><p>You know what?</p></center></q>
+    </div>
+    <div id="life" class="step"         data-x="-1000" data-y="-2000"  data-z="0" data-rotate="90">
+        <q><center>Life has its share <b id="life-up" class="positioning">up's</b> and <b id="life-down" class="positioning">down's</b></center></q>
+    </div>
+
+    <div id="high" class="step"         data-x="0" data-y="-3000" data-z="0" data-rotate="180">
+        <q><center>But with you around</center></q>
+        <br>
+        <q><center>things were always <b id="high-up" class="positioning">high</b> :P</center></q>
+    </div>
+    <div id="amma" class="step"         data-x="1000" data-y="-2000" data-z="0" data-rotate="270">
+        <q><center>Pastries at Amma's</center></q>
+    </div>
+    <div id="bangalore" class="step"    data-x="2000" data-y="-1000" data-z="0" data-rotate="0">
+        <q><center>The treks around Bangalore</center></q>
+        <center><span class="small">(thanks Sayan)</span></center>
+    </div>
+    <div id="platinum" class="step"     data-x="3000" data-y="-0" data-z="0" data-rotate="90">
+        <q><center>The night-out at Platinum City</center></q>
+        <q><center>Marvellous trip to Mysore</center></q>
+    </div>
+    <div id="wonderla" class="step"     data-x="2000" data-y="1000" data-z="0" data-rotate="180">
+        <q><center>The trip to Wonderla</center></q>
+        <span class="small"><center>*alas not so wonderful</center></span>
+    </div>
+    <div id="drunken" class="step"      data-x="1000" data-y="2000" data-z="0" data-rotate="270">
+        <q><center>The <b class="rotating" >drunken</b> night</center></q>
+        <center><span class="small">A profound enlightment</span></center>
+    </div>
+    <div id="dominoes" class="step"     data-x="0" data-y="3000" data-z="0" data-rotate="0">
+        <q><center>Dominoes at CSA</center></q>
+    </div>
+    <div id="night" class="step"        data-x="-1000" data-y="2000" style="color:white" data-z="0" data-rotate="90">
+        <q><center>Night out's at CSA</center></q>
+        <center><span class="small">the best part</span></center>
+    </div>
+    <div id="pj" class="step"           data-x="-2000" data-y="1000" data-z="0" data-rotate="180">
+        <q><center>You and your "class" ic PJ's</center></q>
+        <center><span class="small">brought a new dimension to jokes</span></center>
+    </div>
+    <div id="prakruti" class="step"     data-x="-2000" data-y="0" data-z="0" data-rotate="270">
+        <q><center>Even the simple lunch at Prakruti's</center></q>
+    </div>
+    <div id="funp" class="step"         data-x="-1000" data-y="-1000" data-z="0" data-rotate="0">
+        <q><center>was so much fun with you around</center></q>
+    </div>
+    <div id="bdaygift" class="step"      data-x="0" data-y="-2000" data-z="0" data-rotate="90">
+        <q><center>You gave me the best birthday gift ever</center></q>
+    </div>
+    <div id="bdaycake" class="step"     data-x="1000" data-y="-1000"  style="color:white" data-z="0" data-rotate="180">
+        <q><center>the sweetest birthday cake</center></q>
+    </div>
+    <div id="bdaysurprise" class="step" data-x="2000" data-y="0" data-z="0" data-rotate="270">
+        <q><center>&amp; a nice surprise</center></q>
+        <center><span class="small">failed though :P</span></center>
+    </div>
+    <div id="thanki" class="step"       data-x="1000" data-y="1000" data-z="0" data-rotate="0">
+        <q><center>Thank you for making our lives infinitely better</center></q>
+    </div>
+    <div id="thanke" class="step"       data-x="0" data-y="2000" data-z="0" data-rotate="90">
+        <q><center>Thank you for everything</center></q>
+    </div>
+    <div id="remember" class="step"     data-x="-1000" data-y="0" data-z="0" data-rotate="180">
+        <q><center>Remember one thing </center></q>
+    </div>
+    <div id="nmwhat" class="step"       data-x="0" data-y="1000" data-z="0" data-rotate="270">
+        <q><center>No matter what</center></q>
+    </div>
+    <div id="there" class="step"        data-x="1000" data-y="0" data-z="0" data-rotate="0">
+        <q><center>Were always there for you</center></q>
+    </div>
+    <div id="happy" class="step"        data-x="0" data-y="0" data-z="2000" data-rotate="0">
+        <q><center>Wishing you a wonderful &amp; successful year ahead</center></q>
+    </div>
+    <div id="overview" class="step" data-x="0" data-y="0" data-scale="8">
+    </div>
+
+</div>
+<div class="hint">
+    <p>Iffat use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+</body>
 </html>
