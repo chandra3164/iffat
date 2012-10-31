@@ -1,7 +1,7 @@
 body{-moz-transition:opacity 1s ease-in-out;-o-transition:opacity 1s ease-in-out;-webkit-transition:opacity 1s ease-in-out;background-image:url(../images/bg2.png);background-size:cover;font:36px/1.5 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;transition:opacity 1s ease-in-out}
-.trans{-moz-transition:1s;-ms-transition:1s;-o-transition:1s;-webkit-transition:1s;transition:1s}
+/*.trans{-moz-transition:1s;-ms-transition:1s;-o-transition:1s;-webkit-transition:1s;transition:1s}
 .night{-moz-transition:opacity 1s ease-in-out;-o-transition:opacity 1s ease-in-out;-webkit-transition:opacity 1s ease-in-out;background-image:url(../images/night.jpg);background-repeat:no-repeat;background-size:cover;color:#FFF;transition:opacity 1s ease-in-out}
-.bdaycake{-moz-transition:opacity 1s ease-in-out;-o-transition:opacity 1s ease-in-out;-webkit-transition:opacity 1s ease-in-out;background-image:url(../images/bdaycake.jpg);background-repeat:no-repeat;background-size:cover;color:#FFF;transition:opacity 1s ease-in-out}
+.bdaycake{-moz-transition:opacity 1s ease-in-out;-o-transition:opacity 1s ease-in-out;-webkit-transition:opacity 1s ease-in-out;background-image:url(../images/bdaycake.jpg);background-repeat:no-repeat;background-size:cover;color:#FFF;transition:opacity 1s ease-in-out}*/
 #life{width:500px}
 #life.present #life-up.positioning{-moz-transform:translateY(-30px);-ms-transform:translateY(-30px);-o-transform:translateY(-30px);-webkit-transform:translateY(-30px);transform:translateY(-30px)}
 #life.present #life-down.positioning{-moz-transform:translateY(30px);-moz-transition-delay:.25s;-ms-transform:translateY(30px);-ms-transition-delay:.25s;-o-transform:translateY(30px);-o-transition-delay:.25s;-webkit-transform:translateY(30px);-webkit-transition-delay:.25s;transform:translateY(30px);transition-delay:.25s}
