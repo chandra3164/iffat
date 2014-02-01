@@ -1,6 +1,5 @@
 body {
 	font: 36px/1.5 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
-	background-image: url('../images/bg2.png');
     background-size: cover;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
@@ -13,9 +12,9 @@ body {
     -o-transition:      1s;
     transition:         1s;
 }
-.night {  
+.youknow? {  
     color: white;
-	background-image: url("../images/night.jpg");
+	background-image: url("../images/1024055-bigthumbnail.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-transition: opacity 1s ease-in-out;
